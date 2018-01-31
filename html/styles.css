@@ -1,0 +1,82 @@
+#custom-navbar.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+    background-color: #00b970;
+    
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: #00b970;
+    
+}
+#custom-navbar.navbar-default {
+    font-size: 15px;
+    background-color: #00b970;
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-navbar.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 185, 112, 1);
+}
+#custom-navbar.navbar-default .navbar-nav>li>a:hover,
+#custom-navbar.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(25, 156, 219, 1);
+}
+#custom-navbar.navbar-default .navbar-nav>.active>a,
+#custom-navbar.navbar-default .navbar-nav>.active>a:hover,
+#custom-navbar.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(25, 156, 219, 1);
+}
+#custom-navbar.navbar-default .navbar-toggle {
+    border-color: #199cdb;
+}
+#custom-navbar.navbar-default .navbar-toggle:hover,
+#custom-navbar.navbar-default .navbar-toggle:focus {
+    background-color: #199cdb;
+}
+#custom-navbar.navbar-default .navbar-toggle .icon-bar {
+    background-color: #199cdb;
+}
+#custom-navbar.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-navbar.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #00b970;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #00b970;
+  }
+
+
+body > .container {
+    padding: 60px 15px 0;
+  }
+  .container .text-muted {
+    margin: 20px 0;
+    color: #ffffff
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  code {
+    font-size: 80%;
+  }
+  

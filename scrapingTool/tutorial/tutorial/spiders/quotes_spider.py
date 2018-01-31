@@ -19,3 +19,6 @@ class QuotesSpider(scrapy.Spider):
                 'author' : quote.css('small.author::text').extract_first(),
                 'tags' : quote.css('a.tag::text').extract()
             }
+
+        for link in response.css('li.next a') :
+            response.follow(link, self.parse)
