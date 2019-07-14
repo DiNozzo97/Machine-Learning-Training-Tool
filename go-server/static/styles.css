@@ -1,0 +1,141 @@
+#custom-navbar.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+    background-color: #00b970;
+    
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: #00b970;
+    
+}
+#custom-navbar.navbar-default {
+    font-size: 15px;
+    background-color: #00b970;
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-navbar.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 185, 112, 1);
+}
+#custom-navbar.navbar-default .navbar-nav>li>a:hover,
+#custom-navbar.navbar-default .navbar-nav>li>a:focus {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 185, 112, 1);
+}
+#custom-navbar.navbar-default .navbar-nav>.active>a,
+#custom-navbar.navbar-default .navbar-nav>.active>a:hover,
+#custom-navbar.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(25, 156, 219, 1);
+}
+#custom-navbar.navbar-default .navbar-toggle {
+    border-color: rgba(255,255,255,1);
+}
+#custom-navbar.navbar-default .navbar-toggle:hover,
+#custom-navbar.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+#custom-navbar.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#custom-navbar.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-navbar.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #00b970;
+  }
+
+
+body > .container {
+    padding: 60px 15px 0;
+  }
+  .container .text-muted {
+    margin: 20px 0;
+    color: #ffffff
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  code {
+    font-size: 80%;
+  }
+
+
+input[id*="paraphraseText"] {
+    height: 50px;
+    font-size: 18px;
+    width: 560px;
+    margin-bottom: 5px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+input, select {
+    margin-bottom: 4px;
+}
+
+
+@media (min-width: 992px) {
+    .primaryCol{
+        height: calc(100vh - 180px);
+
+    }
+}
+
+
+
+.primaryCol {
+    padding: 20px;
+    /*padding-left: 60px;*/
+    overflow-y: scroll;
+}
+
+kbd {
+    padding:0.1em 0.6em;
+    border:1px solid #ccc;
+    font-size:11px;
+    font-family:Arial,Helvetica,sans-serif;
+    background-color:#f7f7f7;
+    color:#333;
+    -moz-box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    -webkit-box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    display:inline-block;
+    margin:0 0.1em;
+    text-shadow:0 1px 0 #fff;
+    line-height:1.4;
+    white-space:nowrap;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+}
