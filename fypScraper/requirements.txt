@@ -35,7 +35,7 @@ PyDispatcher==2.0.5
 pyOpenSSL==17.5.0
 pytz==2017.3
 queuelib==1.4.2
-requests==2.18.4
+requests==2.20.0
 rsa==3.4.2
 Scrapy==1.6.0
 scrapy-splash==0.7.2
