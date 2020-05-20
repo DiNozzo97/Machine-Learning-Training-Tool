@@ -18,7 +18,7 @@ google-cloud-datastore==1.4.0
 google-gax==0.15.16
 googleapis-common-protos==1.5.3
 grpcio==1.9.0
-httplib2==0.10.3
+httplib2==0.18.0
 hyperlink==17.3.1
 idna==2.6
 incremental==17.5.0
