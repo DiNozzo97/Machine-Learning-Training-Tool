@@ -36,7 +36,7 @@ pyOpenSSL==17.5.0
 pytz==2017.3
 queuelib==1.4.2
 requests==2.20.0
-rsa==3.4.2
+rsa==4.7
 Scrapy==1.6.0
 scrapy-splash==0.7.2
 selenium==3.11.0
