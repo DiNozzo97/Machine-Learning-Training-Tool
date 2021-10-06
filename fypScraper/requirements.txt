@@ -38,7 +38,7 @@ queuelib==1.4.2
 requests==2.20.0
 rsa==3.4.2
 Scrapy==1.6.0
-scrapy-splash==0.7.2
+scrapy-splash==0.8.0
 selenium==3.11.0
 service-identity==17.0.0
 six==1.11.0
